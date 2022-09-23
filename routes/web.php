@@ -41,7 +41,7 @@ Route::get('/cart', function () {
 });
 
 Route::get('/mitra/dashboard', function () {
-	return view('mitra.ndex');
+	return view('mitra.index');
 });
 
 
